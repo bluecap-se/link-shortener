@@ -12,7 +12,5 @@ services:
     image: redis:latest
   service_2:
     command: ""
-    build:
-      type: dockerfile
-      config: ./.runme/Dockerfile
+    image: mysql:5.7
 
