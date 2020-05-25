@@ -7,6 +7,7 @@
 [![Docker pulls](https://img.shields.io/docker/pulls/bluecap/minime)](https://hub.docker.com/r/bluecap/minime)
 ![Platform](https://img.shields.io/badge/platform-win%20%7C%20lin%20%7C%20osx-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=4199d5fd-1f5b-4b39-b66b-7f7d9fe35b34)
 
 The last link shortener you'll ever need.
 

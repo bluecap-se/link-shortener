@@ -1,0 +1,18 @@
+version: 1.0
+publish: app
+services:
+  app:
+    command: runserver
+    image: bluecap/minime:master
+    ports:
+      - container: 8000
+        public: 80
+  service_1:
+    command: ""
+    image: redis:latest
+  service_2:
+    command: ""
+    build:
+      type: dockerfile
+      config: ./.runme/Dockerfile
+
